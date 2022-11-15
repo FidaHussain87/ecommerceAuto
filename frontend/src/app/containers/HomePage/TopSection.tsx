@@ -150,7 +150,7 @@ export const TopSection = () => {
         </Description>
         <ButtonsContainer>
         <Button text="Book Your Ride" />
-        <Button text="Sell Your Car" theme="filled" />
+        <Button text="Sell Your Cars" theme="filled" />
         </ButtonsContainer>
       </LeftContainer>
       <RightContainer>
