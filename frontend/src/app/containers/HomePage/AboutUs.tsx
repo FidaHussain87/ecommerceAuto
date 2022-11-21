@@ -5,7 +5,7 @@ import { SCREENS } from '../../components/Responsive'
 import JeepImg from '../../../assets/images/jeep.png'
 
 const AboutUsContainer = styled.div`
-  ${tw`flex flex-wrap items-center w-full pt-4 pb-4 bg-white 2xl:justify-center pr-7 pl-7 md:pl-0 md:pr-0`}
+  ${tw`flex flex-wrap items-center w-full pt-4 pb-4 bg-white justify-center pr-7 pl-7 md:pl-0 md:pr-0`}
 `
 
 const CarContainer = styled.div`
@@ -32,7 +32,7 @@ const CarContainer = styled.div`
 `
 
 const InfoContainer = styled.div`
-  ${tw`flex flex-col w-1/2 md:ml-6 2xl:ml-16 `}
+  ${tw`flex flex-col md:w-1/2 md:ml-6 2xl:ml-16 `}
 `
 
 const Title = styled.h1`
@@ -40,7 +40,7 @@ const Title = styled.h1`
 `
 
 const InfoText = styled.p`
-  ${tw`max-w-2xl mt-4 text-sm font-normal text-gray-500 md:text-base`}
+  ${tw`md:max-w-2xl mt-4 text-sm font-normal text-gray-500 md:text-base`}
 `
 const AboutUs = () => {
   return (
@@ -52,6 +52,11 @@ const AboutUs = () => {
         <Title>Feel The Best Experience with Our Rental Deals</Title>
         <InfoText>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+          mollitia molestias distinctio atque! Voluptas eveniet aut facere earum
+          iste eos, nisi exercitationem dolorum? Veniam odio ullam neque
+          doloremque libero dignissimos? mollitia molestias distinctio atque!
+          Voluptas eveniet aut facere earum iste eos, nisi exercitationem
+          dolorum? Veniam odio ullam neque doloremque libero dignissimos?
           mollitia molestias distinctio atque! Voluptas eveniet aut facere earum
           iste eos, nisi exercitationem dolorum? Veniam odio ullam neque
           doloremque libero dignissimos?
